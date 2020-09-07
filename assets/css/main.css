@@ -21,14 +21,13 @@ body,html, .main-content{
     border: solid 4px #FFD166;
 } 
 .main-content a{
-    color: inherit; /* blue colors for links too */
+    color: inherit; 
   text-decoration: underline; /* no underline */
-
 }
-/* input{
-    color: #424874;
-    background-color: #CACFD6;
-}  */
+.main-content a:hover{
+  color: inherit; 
+}
+
 body{ 
     padding: 40px;
     background-color: #26547C;
