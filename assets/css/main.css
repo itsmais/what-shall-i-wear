@@ -24,9 +24,7 @@ body,html, .main-content{
     color: inherit; 
   text-decoration: underline; /* no underline */
 }
-.main-content a:hover{
-  color: inherit; 
-}
+
 
 body{ 
     padding: 40px;
@@ -40,4 +38,7 @@ footer{
 }
 footer a{
     color: #EF476F;
+}
+footer a:hover{
+  color: inherit; 
 }
