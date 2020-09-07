@@ -1,44 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 /*
     Color Palette:
     https://coolors.co/26547c-ef476f-ffd166-06d6a0-fffcf9
 */
+
 .terminal-style{
     color: #06D6A0 !important;
 }
-body,html, .main-content{
+
+body, html, .main-content{
     height:100%;
 }
- p{
+
+p{
      font-family: 'VT323', monospace;
      font-size: larger;
  }
 
- .main-content{
+.main-content{
     color: #FFFCF9;
     background-color: #EF476F;
     padding: 15px;
     border: solid 4px #FFD166;
 } 
+
 .main-content a{
     color: inherit; 
   text-decoration: underline; /* no underline */
 }
 
-
-body{ 
+body { 
     padding: 40px;
     background-color: #26547C;
 }
 
-footer{
+footer {
     font-size: x-small;
     text-align: center;
     color: #FFD166;
 }
-footer a{
+
+footer a {
     color: #EF476F;
 }
-/* footer a:hover{
-  color: inherit; 
-} */
