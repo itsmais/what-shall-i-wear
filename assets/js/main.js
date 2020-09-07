@@ -19,8 +19,8 @@ function matchClothesWithWeather(temp){
 }
 
 function kalToFahr(temp){
-    temp = parseFloat(temp);
-    return Math.floor(((temp-32) / 1.8));
+    let celsius = temp - 273;
+    return (Math.floor(celsius * (9/5) + 32));
 }
   
 
