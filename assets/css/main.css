@@ -44,3 +44,7 @@ footer {
 footer a {
     color: #EF476F;
 }
+
+footer a:hover {
+    text-decoration: none; /* no underline */
+}
