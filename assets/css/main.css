@@ -20,6 +20,11 @@ body,html, .main-content{
     padding: 15px;
     border: solid 4px #FFD166;
 } 
+.main-content a{
+    color: inherit; /* blue colors for links too */
+  text-decoration: underline; /* no underline */
+
+}
 /* input{
     color: #424874;
     background-color: #CACFD6;

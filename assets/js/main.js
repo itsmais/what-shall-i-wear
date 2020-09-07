@@ -34,11 +34,11 @@ document.addEventListener('keyup', function (event) {
     var key = event.key || event.keyCode;
 
     if (key === 'Enter' || key === 'Ent' || key === 13) {
-        doWhateverYouWantNowThatYourKeyWasHit();
+        matchClothes();
     }
 });
 
-function doWhateverYouWantNowThatYourKeyWasHit (){
+function matchClothes (){
         navigator.geolocation.getCurrentPosition(function (position) {
             let lat = position.coords.latitude;
             let long = position.coords.longitude;
