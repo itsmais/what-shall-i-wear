@@ -27,7 +27,7 @@ p{
 
 .main-content a{
     color: inherit; 
-  text-decoration: underline; /* no underline */
+  text-decoration: underline;
 }
 
 body { 
