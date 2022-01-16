@@ -1,10 +1,10 @@
 let finalResult = "";
 function matchClothesWithWeather(temp){
     if (temp < 25){
-        return ("a winter jacket");
+        return ("a thick jacket");
     }
     else if (temp >= 25 && temp <= 44){
-        return ("a light to medium jacket");
+        return ("a jacket");
     }
     else if (temp >= 45 && temp <= 64){
         return ("a fleece");
@@ -14,7 +14,7 @@ function matchClothesWithWeather(temp){
     }
     // else if (temp >= 80){
     else{
-        return ("shorts");
+        return ("shorts and sandals");
     }
 }
 
