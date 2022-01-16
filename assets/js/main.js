@@ -59,7 +59,7 @@ function matchClothes (){
                         // let weatherDescription = jsonObj["weather"][0]["description"];
                         let temp = kalToFahr(jsonObj["main"]["temp"]);
                         let locationName = jsonObj["name"];
-                        finalResult = "it\'s " + temp + " in " + locationName + ". you should be wearing " + matchClothesWithWeather(temp) + ".";
+                        finalResult = "it\'s " + temp + "°F in " + locationName + ". you should be wearing " + matchClothesWithWeather(temp) + ".";
                         console.log(finalResult);
                         typeWriter(finalResult);
                         // weahterIcon.src = "https://openweathermap.org/img/wn/" + jsonObj["weather"][0]["icon"] + "@2x.png";
